@@ -1,14 +1,24 @@
 import './App.css'
+import Container from './components/Container'
+import NavContainer from './components/navbar/NavContainer'
 
 function App() {
 
   return (
     <>
       
-      <h1 className='Open-sans font-bold'>Vite + React</h1>
+      <div className="bg-[#160C6D] w-full ">
+        
+        <NavContainer></NavContainer>
+      
+      </div>
+        
+          <Container></Container>
+        
       
     </>
   )
 }
 
 export default App
+ 
